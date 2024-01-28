@@ -10,9 +10,9 @@ st.title(' Department of Economics Final Grade Calculator')
 st.sidebar.header('User Input')
 
 # Input for grades and weights
-midterm_Highest_grade = st.sidebar.number_input('Midterm Highest Grade (%)', min_value=0, max_value=100, value=60)
-midterm_Middle_grade = st.sidebar.number_input('Midterm Middle Grade (%)', min_value=0, max_value=100, value=95)
-midterm_Lowest_grade = st.sidebar.number_input('Midterm Lowest Grade (%)', min_value=0, max_value=100, value=80)
+midterm_Highest_grade = st.sidebar.number_input('Midterm Highest Grade (%)', min_value=0, max_value=100, value=95)
+midterm_Middle_grade = st.sidebar.number_input('Midterm Middle Grade (%)', min_value=0, max_value=100, value=80)
+midterm_Lowest_grade = st.sidebar.number_input('Midterm Lowest Grade (%)', min_value=0, max_value=100, value=60)
 
 homework_grade = st.sidebar.number_input('Homework Grade (%)', min_value=0, max_value=100, value=95)
 quizzes_grade = st.sidebar.number_input('Quizzes Grade (%)', min_value=0, max_value=100, value=95)
@@ -25,7 +25,7 @@ midterm_Lowest_exam_weight = 0.10
 
 homework_weight = 0.15
 quizzes_weight = 0.10
-final_exam_weight = 0.2
+final_exam_weight = 0.20
 
 # Calculate final grade
 final_grade = (
