@@ -23,7 +23,7 @@ midterm_Highest_exam_weight = 0.25
 midterm_Middle_exam_weight = 0.15
 midterm_Lowest_exam_weight = 0.10
 
-homework_weight = 0.15
+homework_weight = 0.20
 quizzes_weight = 0.10
 final_exam_weight = 0.20
 
